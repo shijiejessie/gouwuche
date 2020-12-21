@@ -1,0 +1,133 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #181717;
+    display: flex;
+    align-items: center;
+}
+
+
+.header_link {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_shopcar {
+    height: 50px;
+    padding: 0 30px;
+    color: #fff;
+    background-color: #dc0c36;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-left: auto;
+    transition: all 0.3s ease;
+}
+/* #3b93f7 */
+.header_shopcar:hover {
+    background-color: #e8cb0f;
+    color: #fff;
+}
+
+
+.search {
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+:global(.ant-input) {
+    background: #222;
+    border: 1px solid #444;
+    box-shadow: 0 2px 0 #000;
+    color: #888;
+
+
+
+}
+
+:global(.ant-input:focus) {
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    -moz-animation: glow 800ms ease-out infinite alternate;
+    -o-animation: glow 800ms ease-out infinite alternate;
+    -ms-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+    background: #222922;
+    color: #0de30d;
+    outline: none;
+}
+:global(.ant-input:focus::-webkit-input-placeholder )
+{
+    color: #fcfbfb;
+
+}
+
+
+
+
+
+
+:global(.ant-btn-primary) {
+    background: #222;
+    box-sizing: content-box;
+    border: 1px solid #444;
+
+    border-left-color: #000;
+    height: 22px;
+    box-shadow: 0 2px 0 #000;
+    color: #fff;
+
+}
+
+:global(.ant-btn-primary:hover) {
+    background: #292929;
+    background: -webkit-linear-gradient(#393939, #292929);
+    background: -moz-linear-gradient(#393939, #292929);
+    background: -o-linear-gradient(#393939, #292929);
+    background: -ms-linear-gradient(#393939, #292929);
+    background: linear-gradient(#393939, #292929);
+    color: #5f5;
+    outline: none;
+    border-color: #222222;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    /* width: 100%; */
+    max-width: 1200px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nail {
+    margin-bottom: 32px;
+    margin-right: 32px;
+}
+.footer {
+    margin: 50px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
